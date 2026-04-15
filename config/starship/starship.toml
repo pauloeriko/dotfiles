@@ -1,0 +1,40 @@
+format = """
+$nodejs\
+$python\
+$directory\
+$git_branch\
+$git_status\
+$cmd_duration\
+$line_break\
+$character"""
+
+[directory]
+style = "blue"
+truncation_length = 4
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+style = "fg:#9aa5b4"
+
+[git_status]
+format = '([$all_status$ahead_behind]($style) )'
+style = "yellow"
+
+[nodejs]
+format = "[node $version]($style) "
+style = "fg:#bb9af7"
+detect_files = ["package.json", ".node-version", ".nvmrc"]
+
+[python]
+format = "[python $version]($style) "
+style = "yellow"
+detect_files = ["requirements.txt", "pyproject.toml", ".python-version", "Pipfile"]
+
+[cmd_duration]
+min_time = 3_000
+format = "[$duration]($style) "
+style = "dimmed white"
+
+[character]
+success_symbol = "[❯](blue)"
+error_symbol = "[❯](red)"

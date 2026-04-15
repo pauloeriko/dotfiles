@@ -1,0 +1,7 @@
+theme = paul-eric
+font-family = JetBrains Mono
+font-size = 13
+window-padding-x = 12
+window-padding-y = 10
+macos-titlebar-style = transparent
+shell-integration = zsh

@@ -1,0 +1,42 @@
+# Fond et texte principal
+background = 1a1b26
+foreground = c0caf5
+
+# Curseur
+cursor-color = c0caf5
+
+# Sélection de texte
+selection-background = 283457
+selection-foreground = c0caf5
+
+# 0 = noir (fond des blocs)       8 = gris sombre (commentaires)
+palette = 0=#15161e
+palette = 8=#9aa5b4
+
+# 1 = corail (erreurs)            9 = corail vif
+palette = 1=#e06c75
+palette = 9=#e06c75
+
+# 2 = gris clair (succès, git)    10 = gris clair vif
+palette = 2=#9aa5b4
+palette = 10=#9aa5b4
+
+# 3 = jaune (warnings)            11 = jaune vif
+palette = 3=#e0af68
+palette = 11=#e0af68
+
+# 4 = bleu (chemins, infos)       12 = bleu vif
+palette = 4=#7aa2f7
+palette = 12=#7aa2f7
+
+# 5 = mauve (badges, accents)     13 = mauve vif
+palette = 5=#bb9af7
+palette = 13=#bb9af7
+
+# 6 = cyan (keywords)             14 = cyan vif
+palette = 6=#7dcfff
+palette = 14=#7dcfff
+
+# 7 = blanc cassé                 15 = blanc pur
+palette = 7=#a9b1d6
+palette = 15=#c0caf5
